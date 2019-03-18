@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333333;
+    width: 100%;
+    height: 140px;
+}
+
+ul {
+    padding-top:35px;
+    padding-left:40px;
+    
+}
+
+nav li {
+    color: #fff;
+    font-family: montserrat;
+}
+
+.container {
+    background-image: url("building.jpg");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.container h1 {
+    font-family: montserrat;
+    font-size:70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    font-weight: 9;
+    color: #333333;
+    padding-top: 40px;  
+}
+
+.get_started {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+div .button {
+    background: #333333;
+    height: 55px;
+    width: 200px;
+    margin-top: 85px;
+}
+
+.button a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    font-size: 22px;
+    font-family: montserrat;
+    padding: 12px 5px 7px 5px;
+}
+
+.section-container {
+    width: 100%;
+    height:500px;
+}
+
+.section2 {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.section2 a {
+    border: 2px solid #333333;
+    text-decoration: none;
+    padding: 10px 5px;
+    color: #333333;
+    font-family: montserrat;
+
+}
+
+.image a:hover {
+    background: #333333;
+    color:#fff;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+}
+
+.image img {
+    width: 38px;
+    height:35px;
+}
+
+.image h2,p{
+    padding: 10px;
+
+}
+
+footer {
+    background: #222222;
+    width: 100%;
+    height: 100px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.footer p {
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    margin: 30px;
+
+}
+
+
+
+
+
+
